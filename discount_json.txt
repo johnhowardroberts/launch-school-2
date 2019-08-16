@@ -1,0 +1,696 @@
+// 20190510152649
+// https://john-roberts-test-store.myshopify.com/admin/orders/1211312242710.json
+
+{
+  "order": {
+    "id": 1211312242710,
+    "email": "john.roberts@shopify.com",
+    "closed_at": null,
+    "created_at": "2019-05-10T15:25:00-07:00",
+    "updated_at": "2019-05-10T15:25:01-07:00",
+    "number": 18,
+    "note": null,
+    "token": "20bfcd35da34d88165c38c78045fa34b",
+    "gateway": "shopify_payments",
+    "test": true,
+    "total_price": "82.04",
+    "subtotal_price": "66.10",
+    "total_weight": 1000,
+    "total_tax": "7.94",
+    "taxes_included": false,
+    "currency": "CAD",
+    "financial_status": "authorized",
+    "confirmed": true,
+    "total_discounts": "23.88",
+    "total_line_items_price": "89.98",
+    "cart_token": "92b62b5759ccac22e6b69e6231ad4459",
+    "buyer_accepts_marketing": true,
+    "name": "#1018",
+    "referring_site": "https://shopify.okta.com/",
+    "landing_site": "/admin",
+    "cancelled_at": null,
+    "cancel_reason": null,
+    "total_price_usd": "60.92",
+    "checkout_token": "7a2226baf24489870e3e0a9591b2a8ea",
+    "reference": null,
+    "user_id": null,
+    "location_id": null,
+    "source_identifier": null,
+    "source_url": null,
+    "processed_at": "2019-05-10T15:24:59-07:00",
+    "device_id": null,
+    "phone": null,
+    "customer_locale": "en",
+    "app_id": 580111,
+    "browser_ip": "38.142.1.26",
+    "landing_site_ref": null,
+    "order_number": 1018,
+    "discount_applications": [
+      {
+        "type": "script",
+        "value": "4.44",
+        "value_type": "fixed_amount",
+        "allocation_method": "one",
+        "target_selection": "explicit",
+        "target_type": "line_item",
+        "title": "Scripts discount applied!",
+        "description": "Scripts discount applied!"
+      },
+      {
+        "type": "script",
+        "value": "4.44",
+        "value_type": "fixed_amount",
+        "allocation_method": "one",
+        "target_selection": "explicit",
+        "target_type": "line_item",
+        "title": "Scripts discount applied!",
+        "description": "Scripts discount applied!"
+      },
+      {
+        "type": "script",
+        "value": "11.12",
+        "value_type": "fixed_amount",
+        "allocation_method": "one",
+        "target_selection": "explicit",
+        "target_type": "line_item",
+        "title": "Scripts discount applied!",
+        "description": "Scripts discount applied!"
+      },
+      {
+        "type": "discount_code",
+        "value": "10.0",
+        "value_type": "percentage",
+        "allocation_method": "each",
+        "target_selection": "entitled",
+        "target_type": "line_item",
+        "code": "MYFIRSTDISCOUNTCODE"
+      }
+    ],
+    "discount_codes": [
+      {
+        "code": "MYFIRSTDISCOUNTCODE",
+        "amount": "3.88",
+        "type": "percentage"
+      }
+    ],
+    "note_attributes": [
+
+    ],
+    "payment_gateway_names": [
+      "shopify_payments"
+    ],
+    "processing_method": "direct",
+    "checkout_id": 7629395394582,
+    "source_name": "web",
+    "fulfillment_status": null,
+    "tax_lines": [
+      {
+        "price": "3.31",
+        "rate": 0.05,
+        "title": "GST",
+        "price_set": {
+          "shop_money": {
+            "amount": "3.31",
+            "currency_code": "CAD"
+          },
+          "presentment_money": {
+            "amount": "3.31",
+            "currency_code": "CAD"
+          }
+        }
+      },
+      {
+        "price": "4.63",
+        "rate": 0.07,
+        "title": "PST",
+        "price_set": {
+          "shop_money": {
+            "amount": "4.63",
+            "currency_code": "CAD"
+          },
+          "presentment_money": {
+            "amount": "4.63",
+            "currency_code": "CAD"
+          }
+        }
+      }
+    ],
+    "tags": "",
+    "contact_email": "john.roberts@shopify.com",
+    "order_status_url": "https://john-roberts-test-store.myshopify.com/2006646806/orders/20bfcd35da34d88165c38c78045fa34b/authenticate?key=f120d507f2b2cb60428c23f61777f3c1",
+    "presentment_currency": "CAD",
+    "total_line_items_price_set": {
+      "shop_money": {
+        "amount": "89.98",
+        "currency_code": "CAD"
+      },
+      "presentment_money": {
+        "amount": "89.98",
+        "currency_code": "CAD"
+      }
+    },
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "23.88",
+        "currency_code": "CAD"
+      },
+      "presentment_money": {
+        "amount": "23.88",
+        "currency_code": "CAD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "8.00",
+        "currency_code": "CAD"
+      },
+      "presentment_money": {
+        "amount": "8.00",
+        "currency_code": "CAD"
+      }
+    },
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "66.10",
+        "currency_code": "CAD"
+      },
+      "presentment_money": {
+        "amount": "66.10",
+        "currency_code": "CAD"
+      }
+    },
+    "total_price_set": {
+      "shop_money": {
+        "amount": "82.04",
+        "currency_code": "CAD"
+      },
+      "presentment_money": {
+        "amount": "82.04",
+        "currency_code": "CAD"
+      }
+    },
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "7.94",
+        "currency_code": "CAD"
+      },
+      "presentment_money": {
+        "amount": "7.94",
+        "currency_code": "CAD"
+      }
+    },
+    "total_tip_received": "0.0",
+    "line_items": [
+      {
+        "id": 2849106722838,
+        "variant_id": 13867924455446,
+        "title": "Example Run 2 - Trail Race",
+        "quantity": 1,
+        "sku": "",
+        "variant_title": "",
+        "vendor": "Virtual Runs For Charity",
+        "fulfillment_service": "manual",
+        "product_id": 1565027565590,
+        "requires_shipping": true,
+        "taxable": true,
+        "gift_card": false,
+        "name": "Example Run 2 - Trail Race",
+        "variant_inventory_management": "shopify",
+        "properties": [
+
+        ],
+        "product_exists": true,
+        "fulfillable_quantity": 1,
+        "grams": 500,
+        "price": "19.99",
+        "total_discount": "4.44",
+        "fulfillment_status": null,
+        "price_set": {
+          "shop_money": {
+            "amount": "19.99",
+            "currency_code": "CAD"
+          },
+          "presentment_money": {
+            "amount": "19.99",
+            "currency_code": "CAD"
+          }
+        },
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "4.44",
+            "currency_code": "CAD"
+          },
+          "presentment_money": {
+            "amount": "4.44",
+            "currency_code": "CAD"
+          }
+        },
+        "discount_allocations": [
+          {
+            "amount": "4.44",
+            "discount_application_index": 0,
+            "amount_set": {
+              "shop_money": {
+                "amount": "4.44",
+                "currency_code": "CAD"
+              },
+              "presentment_money": {
+                "amount": "4.44",
+                "currency_code": "CAD"
+              }
+            }
+          }
+        ],
+        "tax_lines": [
+          {
+            "title": "GST",
+            "price": "0.78",
+            "rate": 0.05,
+            "price_set": {
+              "shop_money": {
+                "amount": "0.78",
+                "currency_code": "CAD"
+              },
+              "presentment_money": {
+                "amount": "0.78",
+                "currency_code": "CAD"
+              }
+            }
+          },
+          {
+            "title": "PST",
+            "price": "1.09",
+            "rate": 0.07,
+            "price_set": {
+              "shop_money": {
+                "amount": "1.09",
+                "currency_code": "CAD"
+              },
+              "presentment_money": {
+                "amount": "1.09",
+                "currency_code": "CAD"
+              }
+            }
+          }
+        ],
+        "origin_location": {
+          "id": 583163674646,
+          "country_code": "CA",
+          "province_code": "BC",
+          "name": "john-roberts-test-store",
+          "address1": "307-2233 W 1st Ave",
+          "address2": "",
+          "city": "Vancouver",
+          "zip": "V6K 1E9"
+        },
+        "destination_location": {
+          "id": 583557218326,
+          "country_code": "CA",
+          "province_code": "BC",
+          "name": "John Roberts",
+          "address1": "307-2233 W 1st Ave",
+          "address2": "",
+          "city": "Vancouver",
+          "zip": "V6K 1E9"
+        }
+      },
+      {
+        "id": 2849106755606,
+        "variant_id": 13867924324374,
+        "title": "Example Run 3",
+        "quantity": 1,
+        "sku": "",
+        "variant_title": "",
+        "vendor": "Virtual Runs For Charity",
+        "fulfillment_service": "manual",
+        "product_id": 1565027467286,
+        "requires_shipping": false,
+        "taxable": true,
+        "gift_card": false,
+        "name": "Example Run 3",
+        "variant_inventory_management": "shopify",
+        "properties": [
+
+        ],
+        "product_exists": true,
+        "fulfillable_quantity": 1,
+        "grams": 0,
+        "price": "19.99",
+        "total_discount": "4.44",
+        "fulfillment_status": null,
+        "price_set": {
+          "shop_money": {
+            "amount": "19.99",
+            "currency_code": "CAD"
+          },
+          "presentment_money": {
+            "amount": "19.99",
+            "currency_code": "CAD"
+          }
+        },
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "4.44",
+            "currency_code": "CAD"
+          },
+          "presentment_money": {
+            "amount": "4.44",
+            "currency_code": "CAD"
+          }
+        },
+        "discount_allocations": [
+          {
+            "amount": "4.44",
+            "discount_application_index": 1,
+            "amount_set": {
+              "shop_money": {
+                "amount": "4.44",
+                "currency_code": "CAD"
+              },
+              "presentment_money": {
+                "amount": "4.44",
+                "currency_code": "CAD"
+              }
+            }
+          }
+        ],
+        "tax_lines": [
+          {
+            "title": "GST",
+            "price": "0.78",
+            "rate": 0.05,
+            "price_set": {
+              "shop_money": {
+                "amount": "0.78",
+                "currency_code": "CAD"
+              },
+              "presentment_money": {
+                "amount": "0.78",
+                "currency_code": "CAD"
+              }
+            }
+          },
+          {
+            "title": "PST",
+            "price": "1.09",
+            "rate": 0.07,
+            "price_set": {
+              "shop_money": {
+                "amount": "1.09",
+                "currency_code": "CAD"
+              },
+              "presentment_money": {
+                "amount": "1.09",
+                "currency_code": "CAD"
+              }
+            }
+          }
+        ],
+        "origin_location": {
+          "id": 583163674646,
+          "country_code": "CA",
+          "province_code": "BC",
+          "name": "john-roberts-test-store",
+          "address1": "307-2233 W 1st Ave",
+          "address2": "",
+          "city": "Vancouver",
+          "zip": "V6K 1E9"
+        },
+        "destination_location": {
+          "id": 583557218326,
+          "country_code": "CA",
+          "province_code": "BC",
+          "name": "John Roberts",
+          "address1": "307-2233 W 1st Ave",
+          "address2": "",
+          "city": "Vancouver",
+          "zip": "V6K 1E9"
+        }
+      },
+      {
+        "id": 2849106788374,
+        "variant_id": 13843972390934,
+        "title": "Mens Sunglasses #1",
+        "quantity": 1,
+        "sku": "",
+        "variant_title": "Black / Small",
+        "vendor": "john-roberts-test-store",
+        "fulfillment_service": "manual",
+        "product_id": 1553505681430,
+        "requires_shipping": true,
+        "taxable": true,
+        "gift_card": false,
+        "name": "Mens Sunglasses #1 - Black / Small",
+        "variant_inventory_management": "shopify",
+        "properties": [
+
+        ],
+        "product_exists": true,
+        "fulfillable_quantity": 1,
+        "grams": 500,
+        "price": "50.00",
+        "total_discount": "11.12",
+        "fulfillment_status": null,
+        "price_set": {
+          "shop_money": {
+            "amount": "50.00",
+            "currency_code": "CAD"
+          },
+          "presentment_money": {
+            "amount": "50.00",
+            "currency_code": "CAD"
+          }
+        },
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "11.12",
+            "currency_code": "CAD"
+          },
+          "presentment_money": {
+            "amount": "11.12",
+            "currency_code": "CAD"
+          }
+        },
+        "discount_allocations": [
+          {
+            "amount": "11.12",
+            "discount_application_index": 2,
+            "amount_set": {
+              "shop_money": {
+                "amount": "11.12",
+                "currency_code": "CAD"
+              },
+              "presentment_money": {
+                "amount": "11.12",
+                "currency_code": "CAD"
+              }
+            }
+          },
+          {
+            "amount": "3.88",
+            "discount_application_index": 3,
+            "amount_set": {
+              "shop_money": {
+                "amount": "3.88",
+                "currency_code": "CAD"
+              },
+              "presentment_money": {
+                "amount": "3.88",
+                "currency_code": "CAD"
+              }
+            }
+          }
+        ],
+        "tax_lines": [
+          {
+            "title": "GST",
+            "price": "1.75",
+            "rate": 0.05,
+            "price_set": {
+              "shop_money": {
+                "amount": "1.75",
+                "currency_code": "CAD"
+              },
+              "presentment_money": {
+                "amount": "1.75",
+                "currency_code": "CAD"
+              }
+            }
+          },
+          {
+            "title": "PST",
+            "price": "2.45",
+            "rate": 0.07,
+            "price_set": {
+              "shop_money": {
+                "amount": "2.45",
+                "currency_code": "CAD"
+              },
+              "presentment_money": {
+                "amount": "2.45",
+                "currency_code": "CAD"
+              }
+            }
+          }
+        ],
+        "origin_location": {
+          "id": 583163674646,
+          "country_code": "CA",
+          "province_code": "BC",
+          "name": "john-roberts-test-store",
+          "address1": "307-2233 W 1st Ave",
+          "address2": "",
+          "city": "Vancouver",
+          "zip": "V6K 1E9"
+        },
+        "destination_location": {
+          "id": 583557218326,
+          "country_code": "CA",
+          "province_code": "BC",
+          "name": "John Roberts",
+          "address1": "307-2233 W 1st Ave",
+          "address2": "",
+          "city": "Vancouver",
+          "zip": "V6K 1E9"
+        }
+      }
+    ],
+    "shipping_lines": [
+      {
+        "id": 755746734102,
+        "title": "Expedited Shipping",
+        "price": "8.00",
+        "code": "Expedited Shipping",
+        "source": "shopify",
+        "phone": null,
+        "requested_fulfillment_service_id": null,
+        "delivery_category": null,
+        "carrier_identifier": null,
+        "discounted_price": "8.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "8.00",
+            "currency_code": "CAD"
+          },
+          "presentment_money": {
+            "amount": "8.00",
+            "currency_code": "CAD"
+          }
+        },
+        "discounted_price_set": {
+          "shop_money": {
+            "amount": "8.00",
+            "currency_code": "CAD"
+          },
+          "presentment_money": {
+            "amount": "8.00",
+            "currency_code": "CAD"
+          }
+        },
+        "discount_allocations": [
+
+        ],
+        "tax_lines": [
+
+        ]
+      }
+    ],
+    "billing_address": {
+      "first_name": "John",
+      "address1": "307-2233 W 1st Ave",
+      "phone": null,
+      "city": "Vancouver",
+      "zip": "V6K 1E9",
+      "province": "British Columbia",
+      "country": "Canada",
+      "last_name": "Roberts",
+      "address2": "",
+      "company": null,
+      "latitude": 49.2710798,
+      "longitude": -123.1559052,
+      "name": "John Roberts",
+      "country_code": "CA",
+      "province_code": "BC"
+    },
+    "shipping_address": {
+      "first_name": "John",
+      "address1": "307-2233 W 1st Ave",
+      "phone": null,
+      "city": "Vancouver",
+      "zip": "V6K 1E9",
+      "province": "British Columbia",
+      "country": "Canada",
+      "last_name": "Roberts",
+      "address2": "",
+      "company": null,
+      "latitude": 49.2710798,
+      "longitude": -123.1559052,
+      "name": "John Roberts",
+      "country_code": "CA",
+      "province_code": "BC"
+    },
+    "fulfillments": [
+
+    ],
+    "client_details": {
+      "browser_ip": "38.142.1.26",
+      "accept_language": "en-GB,en-US;q=0.9,en;q=0.8",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36",
+      "session_hash": "2789d88fa78a63bd8852aa78c4cb6809",
+      "browser_width": 1440,
+      "browser_height": 746
+    },
+    "refunds": [
+
+    ],
+    "payment_details": {
+      "credit_card_bin": "424242",
+      "avs_result_code": "Y",
+      "cvv_result_code": "M",
+      "credit_card_number": "•••• •••• •••• 4242",
+      "credit_card_company": "Visa"
+    },
+    "customer": {
+      "id": 1141328740374,
+      "email": "john.roberts@shopify.com",
+      "accepts_marketing": true,
+      "created_at": "2019-01-18T08:53:03-08:00",
+      "updated_at": "2019-05-10T15:25:01-07:00",
+      "first_name": "John",
+      "last_name": "Roberts",
+      "orders_count": 5,
+      "state": "disabled",
+      "total_spent": "56.00",
+      "last_order_id": 1102469234710,
+      "note": "",
+      "verified_email": true,
+      "multipass_identifier": null,
+      "tax_exempt": false,
+      "phone": null,
+      "tags": "email-marketing-men, wholesale",
+      "last_order_name": "#1005",
+      "currency": "CAD",
+      "accepts_marketing_updated_at": "2019-01-18T08:53:03-08:00",
+      "marketing_opt_in_level": "single_opt_in",
+      "default_address": {
+        "id": 1210019905558,
+        "customer_id": 1141328740374,
+        "first_name": "John",
+        "last_name": "Roberts",
+        "company": null,
+        "address1": "307-2233 W 1st Ave",
+        "address2": "",
+        "city": "Vancouver",
+        "province": "British Columbia",
+        "country": "Canada",
+        "zip": "V6K 1E9",
+        "phone": null,
+        "name": "John Roberts",
+        "province_code": "BC",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "default": true
+      }
+    }
+  }
+}
